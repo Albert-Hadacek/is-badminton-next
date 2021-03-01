@@ -1,0 +1,162 @@
+@font-face {
+  font-family: Roboto;
+  src: url('./fonts/Roboto-Regular.ttf');
+}
+
+#__next {
+  height: 100% !important;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+input,
+button {
+  font-size: 1.6rem !important;
+}
+
+#react-burger-cross-btn,
+#react-burger-menu-btn {
+  font-size: 0 !important;
+}
+
+h2.ui.header {
+  font-size: 2.3rem !important;
+}
+
+.ui.stacked.segment {
+  padding: 3rem !important;
+}
+
+*:not(i) {
+  font-family: Roboto !important;
+}
+
+button:focus {
+  outline: 0;
+}
+
+.not-found {
+  color: #00b5ad;
+  font-size: 3rem;
+}
+
+.not-found span {
+  font-size: 4rem;
+  font-weight: 800;
+}
+
+.footer {
+  color: #ffffff;
+  background-color: #00b5ad;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3vh;
+}
+
+.navbar-header {
+  height: 12vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-header h1 {
+  margin: 0;
+  color: #00b5ad;
+  font-size: 2.7rem;
+}
+
+/* Position and sizing of burger button */
+.bm-burger-button {
+  position: fixed;
+  width: 3.6rem;
+  height: 3rem;
+  left: 2.4rem;
+  top: 2.4rem;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: #00b5ad;
+}
+
+/* Color/shape of burger icon bars on hover*/
+.bm-burger-bars-hover {
+  background: #00b5adef;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 2.4rem;
+  width: 2.4rem;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #00b5ad;
+}
+
+.bm-cross-button:hover .bm-cross {
+  background-color: #00b5adef !important;
+}
+
+/*
+Sidebar wrapper styles
+Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+*/
+.bm-menu-wrap {
+  position: fixed;
+  height: 100%;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: white;
+  padding: 2.5rem 1.5rem 0;
+  font-size: 1.15rem;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  padding: 0.8rem;
+}
+
+/* Individual item */
+.bm-item {
+  outline: none;
+  display: block;
+  color: #00b5ad;
+  padding: 0.5rem;
+  margin: 1.6rem;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.bm-item:hover {
+  color: #00b5ad !important;
+  opacity: 0.8;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+@media only screen and (max-width: 500px) {
+  html {
+    font-size: 50%;
+  }
+}
