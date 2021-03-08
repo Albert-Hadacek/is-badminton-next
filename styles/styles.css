@@ -9,16 +9,23 @@
 
 * {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
 }
 
 html {
   font-size: 62.5%;
+  margin: 0;
+  padding: 0;
 }
 
 body {
   font-size: 1.6rem;
+}
+
+.dashboard-container {
+  min-height: 85vh;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 45px 0px;
 }
 
 input,
@@ -158,5 +165,9 @@ Note: Beware of modifying this element as it can break the animations - you shou
 @media only screen and (max-width: 500px) {
   html {
     font-size: 50%;
+  }
+  .navbar-header h1 {
+    font-size: 2.2rem;
+    padding-left: 40px;
   }
 }

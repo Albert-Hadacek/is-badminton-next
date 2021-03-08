@@ -4,7 +4,7 @@ import Navbar from '../Navbar'
 const DashboardLayout = ({ children }) => (
   <>
     <Navbar />
-    <div style={{ height: '85vh' }} />
+    <div className="dashboard-container">{children}</div>
     <Footer />
   </>
 )
